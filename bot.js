@@ -6,7 +6,8 @@ function startBot() {
     host: 'vanshENBF.aternos.me', // Replace with your Minecraft server IP
     port: 29303,                  // The port number (default is 25565)
     username: 'BOTv2',           // The username for the bot
-    version: false                // Or specify the version number
+    version: "1.81.1",
+    offline: true// Or specify the version number
   });
 
   // Event: Bot has spawned and is connected to the server
